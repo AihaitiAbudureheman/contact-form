@@ -1,0 +1,100 @@
+*{padding: 0px; margin: 0px;}
+
+.contacts{
+    width: 100%; 
+    max-width: 1120px; 
+    background-color: aqua;
+    height: 600px;
+    margin: 0 auto;
+    background: url(form-bg.jpg);
+}
+
+#contacts{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 15%;
+    width: 70%;
+}
+#contacts h3{
+    margin-bottom: 20px;
+    font-size: 200%;
+    font-weight: lighter;
+}
+.form1,.form2{position: relative; top: 80px; margin-bottom: 50px;}
+.form1,.form2{ 
+    width: 50%; 
+    height: 400px; 
+    float: left;
+}
+
+#name,#email{
+    width: 39%;
+    height: 46px;
+    margin-right: 4%;
+    margin-left: 6.2%;
+    margin-bottom: 30px;
+    font-size: 106%;
+    font-weight: lighter;
+    background: transparent;
+    color: #707070;
+    padding: 5px;
+    border: 1px solid #707070;  
+}
+#email{margin-left: 4%;}
+#subject{
+    width: 86.9%; 
+    margin-left: 6.2%;
+    height: 46px;
+    margin-bottom: 30px;
+    font-size: 106%;
+    font-weight: lighter;
+    background: transparent;
+    color: #707070;
+    padding: 5px;
+    border: 1px solid #707070;
+}
+
+#texts{
+    width: 86.9%; 
+    margin-left: 6.2%; 
+    height:100px; 
+    text-align: left;
+    margin-bottom: 30px;
+    background: transparent;
+    color: white;
+    padding: 5px;
+    font-size: 106%;
+    font-weight: lighter;
+    color: #707070;
+     border: 1px solid #707070;
+}
+
+#butt{
+    width: 86.9%; 
+    margin-left: 6%; 
+    text-align: center; 
+    height: 50px;
+    background-color:#4285f4; 
+    border: none;
+    font-size: 110%;
+    color: white;
+}
+
+.form2{color: white; font-weight: lighter;  font-size: 110%;}
+.form2>p >span{line-height: 170%;}
+.form2 p{margin-left: 2%; line-height: 180%; margin-right: 4%;}
+.form2 ul{margin-left: 3%;}
+
+.icon{color: white;}
+#add li{list-style: none; line-height: 200%;}
+
+/*when width less than or equal to 768 */
+@media screen and (max-width:768px) {
+    .form1,.form2{width: 100%;}
+     #name,#email{width: 86.9%;}
+     .contacts{height: 930px;}
+    #email{margin-left: 6.2%;}
+}
+
